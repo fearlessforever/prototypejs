@@ -8,8 +8,8 @@ import route from './src/config/route.js';
 
 const app = express()
 
-
 route(app);
+
 
 app.listen( process.myconfig.port , process.myconfig.host )
 
