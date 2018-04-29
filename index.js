@@ -1,10 +1,6 @@
-// set my config to clobal nodejs variabel process
-process.myconfig ={
-	root: __dirname , host : 'freelence.hel' , port: 8000
-};
-
-import express from 'express';
-import route from './src/config/route.js';
+import config from './src/config/config.js'
+import express from 'express'
+import route from './src/config/route.js'
 
 const app = express()
 

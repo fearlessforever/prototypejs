@@ -4,8 +4,8 @@
   "description": "Program Coba",
   "main": "index.js",
   "scripts": {
-    "test": "test_aja",
-    "start": "./node_modules/.bin/babel-node index.js"
+    "start": "./node_modules/.bin/babel-node index.js production",
+    "test": "./node_modules/.bin/babel-node index.js development"
   },
   "keywords": [
     "Program",
