@@ -1,6 +1,6 @@
-import config from './src/config/config.js'
+import config from './src/configs/config.js'
 import express from 'express'
-import route from './src/config/route.js'
+import route from './src/configs/route.js'
 
 const app = express()
 
